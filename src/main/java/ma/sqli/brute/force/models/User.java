@@ -17,7 +17,9 @@ public class User {
         else {
             return "Authentification failed";
         }
-    }
+
+        }
+
 
     public String rightLogin(String admin, String password){
         return "Welcome " + admin;
